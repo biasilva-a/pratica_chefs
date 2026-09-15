@@ -1,0 +1,109 @@
+* {
+    --branco: #FFF;
+    --verde: #1b3c29;
+    --amarelo: #f6a823;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secao_usuario {
+    display: flex;
+    align-items: center;
+    padding: 10px;;
+}
+
+#foto-usuario {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.btn-perfil {
+    background-color: var(--verde);
+    color: var(--branco);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.secao_empresa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+.login {
+    margin: 60px;
+    padding: 10px;
+}
+
+.btn-login {
+    background-color: var(--verde);
+    color: var(--branco);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.aplicacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#campo-busca {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+#lupa{
+    width: 50px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.mural-receitas {
+   margin: 20px;
+   padding: 20px;
+   justify-content: center;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 20px;
+   display: grid;
+}
+
+#foto-receita {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#estrela-foto {
+    width: 25px;
+    height: 25px;
+}
