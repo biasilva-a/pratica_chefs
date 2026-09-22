@@ -81,7 +81,6 @@
     position: fixed;
     top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
     border: none;
     border-radius: 10px;
     width: 100%;
@@ -91,7 +90,7 @@
 }
 
 #Modallogin::backdrop {
-    background-color: #00000080;
+    background-color: #61616180;
 }
 
 .form-fechar-topo {
@@ -302,12 +301,9 @@
     border-radius: 5px;
     text-align: left;
     font-size: 14px;
-}
-
-
-.imagem-receita:hover .tooltip {
     display: block;
 }
+
 
 .rodape {
     width: 100%;
