@@ -143,14 +143,6 @@
     font-size: 14px;
 }
 
-.msg-erro {
-    color: #d32f2f;
-    font-size: 12px;
-    margin-bottom: 12px;
-    display: none;
-    font-family: Arial, sans-serif;
-}
-
 .modal-botoes {
     display: flex;
     justify-content: flex-end;

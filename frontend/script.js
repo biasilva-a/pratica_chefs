@@ -2,6 +2,12 @@ const modal = document.getElementById('Modallogin');
 const btnAbrir = document.getElementById('btn-login');
 const formLogin = document.getElementById('formLogin');
 const btnCancelar = document.getElementById('btn-cancelar');
+const btnperfil = document.getElementById('btn-perfil');
+
+
+btnperfil.addEventListener('click', () => {
+    modal.showModal();
+});
 
 btnAbrir.addEventListener('click', () => {
     modal.showModal();
