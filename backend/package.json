@@ -7,9 +7,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/server/server.js",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node src/server/server.js"
   },
   "keywords": [],
   "author": "",
